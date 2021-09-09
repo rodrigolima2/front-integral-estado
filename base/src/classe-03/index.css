@@ -1,0 +1,91 @@
+.App{
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #E5E5E5;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 302px;
+
+    background: #FFFFFF;
+
+    border-radius: 12px;
+
+    padding-bottom: 25px;
+}
+
+.card__img{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.card__nome-lanche{
+    width: 90%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #131E30;
+
+    margin: 8px 0;
+}
+
+.card__descricao-lanche{
+    width: 90%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #131E30;
+
+    margin-bottom: 59px;
+}
+
+.card__qtd-lanches{
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+}
+
+.card__qtd{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #131E30;  
+}
+
+.card__btn-menos, .card__btn-mais{
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EFF5FF;
+
+    background: #459275;
+
+    border-radius: 8px;
+
+    padding: 2px 11px;
+}
